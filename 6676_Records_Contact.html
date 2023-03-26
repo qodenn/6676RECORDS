@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with the 6676 Records." />
+    <link href="https://fonts.cdnfonts.com/css/din-condensed" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://i.imgur.com/mFPRSK3.png">
+    <title>6676 Records&trade; | Contact</title>
+
+    <style type="text/css">
+
+        @import url('https://fonts.cdnfonts.com/css/din-condensed');
+
+        body {
+            background-color: #000;
+            position: relative;
+            overflow-x: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .prebar {
+            background-color: #000;
+            width: 100%;
+            height: 190px;
+            margin-top: -204px;
+            margin-left: -10px;
+            position: inherit;
+            display: block;
+            opacity: 0;
+        }
+
+        /* TOP BAR */
+
+        .bar {
+            background-color: #0006;
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            width: 100%;
+            height: 190px;
+            margin-top: 2px;
+            margin-left: -10px;
+            display: block;
+            position: fixed;
+            transition: .3s;
+            z-index: 999;
+            box-shadow: 0px 15px 22px #000c;
+        }
+
+        .logo {
+            width: 80px;
+            margin-top: 64px;
+            margin-left: 86px;
+            transition: .3s;
+        }
+
+        .title {
+            font-family: 'DIN Condensed', sans-serif;
+            font-size: 39px;
+            margin-top: -60px;
+            margin-left: 162px;
+            width: 230px;
+            color: #fff;
+            position: fixed;
+            transition: .3s;
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: white;
+            width: 184px;
+            height: 39px;
+
+        }
+
+        .title:hover {
+            color: #000;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .logo {
+                width: 66px;
+                margin-left: 63px;
+                margin-top: 67px;
+            }
+            
+            .title {
+                font-size: 25px;
+                margin-top: -45px;
+                margin-left: 126px;
+                width: 116px;
+                height: 24px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .logo {
+                margin-left: 50px;
+            }
+
+            .title {
+                margin-left: 113px;
+                width: 116px;
+                height: 24px;
+            }
+        }
+        
+        .hcca {
+            width: 160px;
+            height: 75px;
+            float: right;
+            margin-right: 86px;
+            /*margin-top: 64px;*/
+            margin-top: 70px;
+            padding-top: 17px;
+            transition: .3s;
+        }
+
+        @media only screen and (max-width: 545px) {
+            .hcca {
+                margin-right: 30px;
+            }
+
+            .home_ {
+                margin-left: 74px;
+            }
+
+            .apparel_ {
+                margin-left: 29px;
+            }
+
+            .contact_ {
+                margin-left: 30px;
+            }
+
+            .about_ {
+                margin-left: 60px;
+            }
+        }
+
+        @media only screen and (max-width: 486px) {
+            .logo {
+                width: 100px;
+                margin-left: 60px;
+                margin-top: 44px;
+            }
+
+            .title {
+                font-size: 12px;
+                margin-left: 82px;
+                margin-top: -6px;
+                width: 58px;
+                height: 14px;
+            }
+        }
+        
+        .home_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+        
+        .catalogue_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+
+        .apparel_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+
+        .contact_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+
+        .about_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+        
+        .home_:hover {
+            filter: blur(1.5px);
+        }
+
+        .catalogue_:hover {
+            filter: blur(1.5px);
+        }
+
+        .apparel_:hover {
+            filter: blur(1.5px);
+        }
+
+        .contact_:hover {
+            filter: blur(1.5px);
+        }
+
+        .about_:hover {
+            filter: blur(1.5px);
+        }
+
+        /* TOP BAR */
+
+        /* TITLE */
+
+        .big_title {
+            color: #fff;
+            margin-top: 220px;
+            margin-left: 95px;
+            margin-bottom: -220px;
+            width: fit-content;
+            height: 114px;
+            transition: .35s;
+        }
+
+        .label {
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: #fff;
+            color: #fff;
+            transition: .35s;
+            font-family: 'Akira Expanded', sans-serif;
+            font-size: 100px;
+            margin-top: -16px;
+            display: inline;
+        }
+
+        .label:hover {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #fff;
+            color: #ffffff00;
+            cursor: default;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .big_title {
+                margin-left: 75px;
+                height: 89px;
+            }
+
+            .label {
+                font-size: 75px;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            .big_title {
+                margin-left: 55px;
+                height: 85px;
+            }
+
+            .label {
+                font-size: 60px;
+            }
+        }
+
+        @media only screen and (max-width: 640px) {
+            .big_title {
+                margin-left: 53px;
+                height: 66px;
+            }
+
+            .label {
+                font-size: 60px;
+            }
+        }
+
+        @media only screen and (max-width: 615px) {
+            .big_title {
+                margin-left: 53px;
+                height: 53px;
+            }
+
+            .label {
+                font-size: 45px;
+            }
+        }
+
+        @media only screen and (max-width: 470px) {
+            .big_title {
+                margin-left: 33px;
+                height: 47px;
+            }
+
+            .label {
+                font-size: 38px;
+            }
+        }
+
+        /* TITLE */
+
+        /* MAIN */
+
+        .content_box {
+            height: 350px;
+            margin-top: 333px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 150px;
+            width: 704px;
+            transition: .35s;
+            border: #fff solid 1px;
+        }
+
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -49px;
+            height: 136px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            transition: .35s;
+        }
+
+        .write_us {
+            color: #00000000;
+            font-family: 'Akira Expanded', sans-serif;
+            font-size: 60px;
+            text-align: center;
+            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-color: #fff;
+            margin-top: 25px;
+            margin-right: auto;
+            margin-left: auto;
+            transition: .35s;
+            width: fit-content;
+        }
+
+        .write_us:hover {
+            filter: blur(1.5px);
+        }
+
+        .contact_p {
+            color: #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+            opacity: .85;
+            text-align: center;
+        }
+
+        .mael {
+            border: #fff solid 1px;
+            width: 140px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: .35s;
+            background-color: #00000000;
+            color: #fff;
+            margin-top: 10px;
+        }
+
+        .mael:hover {
+            background-color: #fff;
+            color: #000;
+            cursor: default;
+        }
+
+        .mael_txt {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            cursor: default;
+            font-size: 20px;
+            margin-top: 16px;
+            transition: .35s;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .content_box {
+                width: 90%;
+            }
+        }
+
+        @media only screen and (max-width: 470px) {
+            .content_box {
+                width: 100%;
+                border: #000 solid 1px;
+            }
+
+            .content {
+                width: 95%;
+            }
+        }
+
+        @media only screen and (max-width: 545px) {
+            .write_us {
+                font-size: 44px;
+                margin-bottom: 77px;
+            }
+        }
+
+        /* MAIN */
+
+        /* FOOTER */
+
+        .bottom {
+            width: 300px;
+            height: 100px;
+            margin-top: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .socially {
+            width: fit-content ;
+            height: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .spotify_pl {
+            width: 30px;
+            transition: .3s;
+        }
+
+        .spotify_pl:hover {
+            filter: blur(1.5px);
+        }
+
+        .insta {
+            width: 30px;
+            transition: .3s;
+        }
+
+        .insta:hover {
+            filter: blur(1.5px);
+        }
+
+        .fb {
+            width: 38px;
+            margin-bottom: -5px;
+            margin-left: -3px;
+            transition: .3s;
+        }
+
+        .fb:hover {
+            filter: blur(1.5px);
+        }
+
+        .mail {
+            width: 30px;
+            margin-left: -3px;
+            transition: .3s;
+        }
+
+        .mail:hover {
+            filter: blur(1.5px);
+        }
+
+        .yt {
+            width: 35px;
+            margin-bottom: -2px;
+            margin-left: 2px;
+            transition: .3s;
+        }
+
+        .yt:hover {
+            filter: blur(1.5px);
+        }
+
+        .tweet {
+            width: 33px;
+            transition: .3s;
+        }
+
+        .tweet:hover {
+            filter: blur(1.5px);
+        }
+
+        .beatporter {
+            width: 23.5px;
+            margin-bottom: 2.5px;
+            margin-left: -5px;
+            transition: .3s;
+        }
+
+        .beatporter:hover {
+            filter: blur(1.5px);
+        }
+
+        .footer {
+            color: #ffffff85;
+            font-family: 'DIN Condensed', sans-serif;
+            font-size: 14px;
+            text-align: center;
+            transition: .3s;
+        }
+
+        .footer:hover {
+            filter: blur(1px);
+            color: rgba(255, 255, 255, 1);
+            cursor: none;
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+
+    <div class="prebar">
+        <h2 class="title">Free Music Distribution</h2>
+    </div>
+    <video src="https://i.imgur.com/j5mTc4j.mp4" autoplay loop 
+        style="z-index: -1; position: fixed; width: 100%; height: 100%;">
+    </video>
+    <div class="bar">
+        <a href="https://6676records.tumblr.com">
+            <img class="logo" src="https://i.imgur.com/yYUM7Xh.png">
+            <h2 class="title">6676 RECORDS</h2>
+        </a>
+        <div class="hcca">
+            <a href="https://6676records.tumblr.com">
+                <h2 class="home_">HOME</h2>
+            </a>
+            <a href="https://6676records.tumblr.com/catalogue">
+                <h2 class="catalogue_">CATALOGUE</h2>
+            <!--<a href="https://6676records.gq/apparel">
+                <h2 class="apparel_">APPAREL</h2>
+            </a>-->
+            </a>
+            <h2 class="contact_" style="-webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white; color:#00000000;">CONTACT</h2>
+            <a href="https://6676records.tumblr.com/about">
+                <h2 class="about_">ABOUT</h2>
+            </a>
+        </div>
+    </div>
+    <div class="big_title">
+        <h1 class="label">CONTACT</h1>
+    </div>
+    <div class="content_box">
+        <p class="write_us">WRITE US</p>
+        <div class="content">
+            <p class="contact_p">
+                Welcome! <br/>
+                We're glad you want reach out to us. <br/>
+                Please keep in mind that just like yours, <br/>
+                our time is valuable. <br/>
+                Please only contact us for important subjects. <br/>· · ·<br/>
+                Thank you for your understanding.
+            </p>
+        </div>
+        <a href="mailto:6676records@mailfence.com" target="_blank">
+            <div class="mael">
+                <h2 class="mael_txt">MAIL</h2>
+            </div>
+        </a>
+    </div>
+    
+    <div class="bottom">
+        <div class="socially">
+            <a href="https://open.spotify.com/playlist/6cXbgBTlCRkQxmcjnmhU33" target="_blank">
+                <img src="https://i.imgur.com/EvjsANI.png" class="spotify_pl" alt="spotify playlist">
+            </a>
+            <a href="https://instagram.com/6676records/" target="_blank">
+                <img src="https://i.imgur.com/3lafgBL.png" class="insta" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/6676Records/" target="_blank">
+                <img src="https://i.imgur.com/KBBQPdy.png" class="fb" alt="facebook">
+            </a>
+            <a href="mailto:6676records@mailfence.com" target="_blank">
+                <img src="https://i.imgur.com/JoygBHw.png" class="mail" alt="mail">
+            </a>
+            <a href="https://www.youtube.com/@6676RECORDS" target="_blank">
+                <img src="https://i.imgur.com/3IkamMB.png" class="yt" alt="youtube">
+            </a>
+            <a href="https://www.twitter.com/6676RECORDS" target="_blank">
+                <img src="https://i.imgur.com/dghXlFW.png" class="tweet" alt="twitter">
+            </a>
+            <a href="https://www.beatport.com/label/6676-records/107475/releases" target="_blank">
+                <img src="https://i.imgur.com/fwIJgIx.png" class="beatporter" alt="beatport">
+            </a>
+        </div>
+        <div class="footer">
+            <p>COPYRIGHT &copy; 6676 RECORDS. 2023</p>
+        </div>
+    </div>
+</body>
+</html>

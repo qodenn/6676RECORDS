@@ -1,0 +1,593 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage of 6676 Records. See what's new and connect with the Label." />
+    <meta name="p:domain_verify" content="2ddf81164f3ac7ff992b22a92ccbc5dc"/>
+    <link href="https://fonts.cdnfonts.com/css/din-condensed" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="https://i.imgur.com/mFPRSK3.png">
+    <title>6676 Records&trade;</title>
+
+    <style type="text/css">
+
+        @import url('https://fonts.cdnfonts.com/css/din-condensed');
+
+        body {
+            background-color: #000;
+            position: relative;
+            overflow-x: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .prebar {
+            background-color: #000;
+            width: 100%;
+            height: 190px;
+            margin-top: -204px;
+            margin-left: -10px;
+            position: inherit;
+            display: block;
+            opacity: 0;
+        }
+
+        /* TOP BAR */
+
+        .bar {
+            background-color: #0006;
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            width: 100%;
+            height: 190px;
+            margin-top: 2px;
+            margin-left: -10px;
+            display: block;
+            position: fixed;
+            transition: .3s;
+            z-index: 999;
+            box-shadow: 0px 15px 22px #000c;
+        }
+
+        .logo {
+            width: 80px;
+            margin-top: 64px;
+            margin-left: 86px;
+            transition: .3s;
+        }
+
+        .title {
+            font-family: 'DIN Condensed', sans-serif;
+            font-size: 39px;
+            margin-top: -60px;
+            margin-left: 162px;
+            width: 230px;
+            color: #fff;
+            position: fixed;
+            transition: .3s;
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: white;
+            width: 184px;
+            height: 39px;
+
+        }
+
+        .title:hover {
+            color: #000;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .logo {
+                width: 66px;
+                margin-left: 63px;
+                margin-top: 67px;
+            }
+            
+            .title {
+                font-size: 25px;
+                margin-top: -45px;
+                margin-left: 126px;
+                width: 116px;
+                height: 24px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .logo {
+                margin-left: 50px;
+            }
+
+            .title {
+                margin-left: 113px;
+                width: 116px;
+                height: 24px;
+            }
+        }
+        
+        .hcca {
+            width: 160px;
+            height: 75px;
+            float: right;
+            margin-right: 86px;
+            /*margin-top: 64px;*/
+            margin-top: 70px;
+            padding-top: 17px;
+            transition: .3s;
+        }
+
+        @media only screen and (max-width: 545px) {
+            .hcca {
+                margin-right: 30px;
+            }
+
+            .home_ {
+                margin-left: 74px;
+            }
+
+            .apparel_ {
+                margin-left: 29px;
+            }
+
+            .contact_ {
+                margin-left: 30px;
+            }
+
+            .about_ {
+                margin-left: 60px;
+            }
+        }
+
+        @media only screen and (max-width: 486px) {
+            .logo {
+                width: 100px;
+                margin-left: 60px;
+                margin-top: 44px;
+            }
+
+            .title {
+                font-size: 12px;
+                margin-left: 82px;
+                margin-top: -6px;
+                width: 58px;
+                height: 14px;
+            }
+        }
+        
+        .home_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+        
+        .catalogue_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+
+        .apparel_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+
+        .contact_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+
+        .about_ {
+            font-family: 'Akira Expanded', sans-serif;
+            color: #fff;
+            font-size: 19px;
+            margin-top: -19px;
+            transition: .35s;
+            width: fit-content;
+        }
+        
+        .home_:hover {
+            filter: blur(1.5px);
+        }
+
+        .catalogue_:hover {
+            filter: blur(1.5px);
+        }
+
+        .apparel_:hover {
+            filter: blur(1.5px);
+        }
+
+        .contact_:hover {
+            filter: blur(1.5px);
+        }
+
+        .about_:hover {
+            filter: blur(1.5px);
+        }
+
+        /* TOP BAR */
+
+        /* TITLE */
+
+        .big_title {
+            color: #fff;
+            margin-top: 220px;
+            margin-left: 95px;
+            margin-bottom: -220px;
+            width: fit-content;
+            height: 230px;
+            transition: .35s;
+        }
+
+        .label {
+            -webkit-text-stroke-width: 0px;
+            -webkit-text-stroke-color: #fff;
+            color: #fff;
+            transition: .35s;
+            font-family: 'Akira Expanded', sans-serif;
+            font-size: 100px;
+            margin-top: -16px;
+            display: inline;
+        }
+
+        .label:hover {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #fff;
+            color: #ffffff00;
+            cursor: default;
+        }
+
+        /* TITLE */
+
+        /* MAIN */
+
+        .content_box {
+            height: 350px;
+            margin-top: 240px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 704px;
+            height: fit-content;
+            transition: .35s;
+        }
+
+        .content {
+            transition: .35s;
+        }
+
+        .untertitel {
+            font-family: 'Akira Expanded', sans-serif;
+            font-size: 42px;
+            color: #fff;
+        }
+
+        .untertitel_02 {
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #a6ff00;
+            font-family: 'Akira Expanded', sans-serif;
+            font-size: 33px;
+            color: #ffffff00;
+            margin-top: -8px;
+        }
+
+        .border_ {
+            border-bottom: #ffffff93 solid .5px;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .description_01 {
+            color: #fff;
+            font-size: 20px;
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 45px;
+            transition: .35s;
+            text-align: justify;
+        }
+
+        @media only screen and (max-width: 580px) {
+            .untertitel {
+                font-size: 30px;
+            }
+
+            .untertitel_02 {
+                font-size: 27px;
+            }
+            
+            .description_01 {
+                font-size: 17px;
+            }
+        }
+
+        .submit_button {
+            border: #fff solid 2px;
+            background-color: #000;
+            color: #fff;
+            width: 230px;
+            height: 60px;
+            margin-top: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: .35s;
+        }
+
+        .submit_button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        .button_text {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 21px;
+            margin-top: 16px;
+            font-family: 'Montserrat', sans-serif;
+            width: fit-content;
+        }
+
+        .button_text:hover {
+            cursor: default;
+        }
+
+        @media only screen and (max-width: 800px) {
+            .big_title {
+                margin-left: 75px;
+                height: 184px;
+            }
+
+            .label {
+                font-size: 80px;
+            }
+
+            .content_box {
+                width: 80%;
+            }
+        }
+
+        @media only screen and (max-width: 640px) {
+            .big_title {
+                margin-left: 53px;
+                height: 142px;
+            }
+
+            .label {
+                font-size: 60px;
+            }
+        }
+
+        @media only screen and (max-width: 470px) {
+            .big_title {
+                margin-left: 33px;
+                height: 108px;
+            }
+
+            .label {
+                font-size: 44px;
+            }
+        }
+
+        /* MAIN */
+
+        /* FOOTER */
+
+        .bottom {
+            width: 300px;
+            height: 100px;
+            margin-top: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        .socially {
+            width: fit-content;
+            height: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .spotify_pl {
+            width: 30px;
+            transition: .3s;
+        }
+
+        .spotify_pl:hover {
+            filter: blur(1.5px);
+        }
+
+        .insta {
+            width: 30px;
+            transition: .3s;
+        }
+
+        .insta:hover {
+            filter: blur(1.5px);
+        }
+
+        .fb {
+            width: 38px;
+            margin-bottom: -5px;
+            margin-left: -3px;
+            transition: .3s;
+        }
+
+        .fb:hover {
+            filter: blur(1.5px);
+        }
+
+        .mail {
+            width: 30px;
+            margin-left: -3px;
+            transition: .3s;
+        }
+
+        .mail:hover {
+            filter: blur(1.5px);
+        }
+
+        .yt {
+            width: 35px;
+            margin-bottom: -2px;
+            margin-left: 2px;
+            transition: .3s;
+        }
+
+        .yt:hover {
+            filter: blur(1.5px);
+        }
+
+        .tweet {
+            width: 33px;
+            transition: .3s;
+        }
+
+        .tweet:hover {
+            filter: blur(1.5px);
+        }
+
+        .beatporter {
+            width: 23.5px;
+            margin-bottom: 2.5px;
+            margin-left: -5px;
+            transition: .3s;
+        }
+
+        .beatporter:hover {
+            filter: blur(1.5px);
+        }
+
+        .footer {
+            color: #ffffff85;
+            font-family: 'DIN Condensed', sans-serif;
+            font-size: 14px;
+            text-align: center;
+            transition: .3s;
+        }
+
+        .footer:hover {
+            filter: blur(1px);
+            color: rgba(255, 255, 255, 1);
+            cursor: none;
+        }
+
+    </style>
+</head>
+<body oncontextmenu="return false;">
+
+    <div class="prebar">
+        <h2 class="title">Free Music Distribution</h2>
+    </div>
+    <video src="https://i.imgur.com/j5mTc4j.mp4" autoplay loop 
+        style="z-index: -1; position: fixed; width: 100%; height: 100%;">
+    </video>
+    <div class="bar">
+        <a href="https://6676records.gq">
+            <img class="logo" src="https://i.imgur.com/yYUM7Xh.png">
+            <h2 class="title">6676 RECORDS</h2>
+        </a>
+        <div class="hcca">
+            <h2 class="home_" style="-webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: white; color:#00000000;">HOME</h2>
+            <a href="https://6676records.tumblr.com/catalogue">
+                <h2 class="catalogue_">CATALOGUE</h2>
+            </a>
+            <!--<a href="https://6676records.gq/apparel">
+                <h2 class="apparel_">APPAREL</h2>
+            </a>-->
+            <a href="https://6676records.tumblr.com/contact">
+                <h2 class="contact_">CONTACT</h2>
+            </a>
+            <a href="https://6676records.tumblr.com/about">
+                <h2 class="about_">ABOUT</h2>
+            </a>
+        </div>
+    </div>
+    <div class="big_title">
+        <h1 class="label">A </h1>
+        <h1 class="label">LABEL</h1><br/>
+        <h1 class="label">FOR </h1>
+        <h1 class="label">YOU.</h1>
+    </div>
+    <div class="content_box">
+        <br/><br/>
+        <h2 class="untertitel">Do you make people move?</h2>
+        <h2 class="untertitel_02">Come work with us.</h2>
+        <div class="border_"></div>
+        <p class="description_01">
+            Are you an artist who can create simple yet captivating tracks that leave people in awe?
+            <br/>
+            If so, we want you on our team!
+            <br/><br/>
+            We're specifically looking for artists who specialize in Lo-Fi House and Techno.
+            <br/>
+            If this sounds like you, then we encourage you to apply by submitting 2-3 of your finished tracks.
+            <br/>
+            Let us hear what you have to offer and become a part of our team today.
+        </p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBVVtZ47EE6oulcqJnu5eMcginbAI7MkKK0TP8Jx7iyYmDaQ/viewform?usp=sf_link" target="_blank" style="width: 233px; display: block; margin-left: auto; margin-right: auto; margin-top: 70px; height: 60px;">
+            <div class="submit_button">
+                <h2 class="button_text">SUBMIT</h2>
+            </div>
+        </a>
+    </div>
+    
+    <div class="bottom">
+        <div class="socially">
+            <a href="https://open.spotify.com/playlist/6cXbgBTlCRkQxmcjnmhU33" target="_blank">
+                <img src="https://i.imgur.com/EvjsANI.png" class="spotify_pl" alt="spotify playlist">
+            </a>
+            <a href="https://instagram.com/6676records/" target="_blank">
+                <img src="https://i.imgur.com/3lafgBL.png" class="insta" alt="instagram">
+            </a>
+            <a href="https://www.facebook.com/6676Records/" target="_blank">
+                <img src="https://i.imgur.com/KBBQPdy.png" class="fb" alt="facebook">
+            </a>
+            <a href="mailto:6676records@mailfence.com" target="_blank">
+                <img src="https://i.imgur.com/JoygBHw.png" class="mail" alt="mail">
+            </a>
+            <a href="https://www.youtube.com/@6676RECORDS" target="_blank">
+                <img src="https://i.imgur.com/3IkamMB.png" class="yt" alt="youtube">
+            </a>
+            <a href="https://www.twitter.com/6676RECORDS" target="_blank">
+                <img src="https://i.imgur.com/dghXlFW.png" class="tweet" alt="twitter">
+            </a>
+            <a href="https://www.beatport.com/label/6676-records/107475/releases" target="_blank">
+                <img src="https://i.imgur.com/fwIJgIx.png" class="beatporter" alt="beatport">
+            </a>
+        </div>
+        <div class="footer">
+            <p>COPYRIGHT &copy; 6676 RECORDS. 2023</p>
+        </div>
+    </div>
+</body>
+</html>
